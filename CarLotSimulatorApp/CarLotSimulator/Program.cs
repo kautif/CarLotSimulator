@@ -47,13 +47,12 @@ namespace CarLotSimulator
                 HonkNoise = "HONK",
                 IsDriveable = true
             };
-
+            
             List<Car> cars = new List<Car> { prius, hummer, granturismo };
             foreach (var item in cars) {
                 Console.WriteLine("{1} - Year: {0}, Manufacturer: {2},  Engine Noise: {3}, Honk Noise: {4}, Driveable: {5}", 
                     item.Year, item.Model, item.Make, item.EngineNoise, item.HonkNoise, item.IsDriveable);
             }
-
 
             //*************BONUS*************//
 
